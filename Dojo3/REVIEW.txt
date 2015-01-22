@@ -1,0 +1,19 @@
+O que foi bom
+
+- Pizza
+- Problema bem elaborado
+- Participaçao do pessoal melhorou
+- Janela de 5 minutos foi legal
+
+O que melhorar
+
+- Pausa para a pizza ao invés de deixar o dojo correndo
+- definir horários para as etapas
+- Adicionar mais máquinas/monitores para facilitar acompanhamento
+	* Somente para visualizaçao da máquina principal
+- Adaptar formato para maior participaçao dos QAs
+	* Definindo cenários
+	* Direcionando os objetivos dentro do problema
+- Focar no TDD (ciclo Testar-Codificar-Refatorar)
+- Criar projeto do tipo class library ao invés de console application
+
