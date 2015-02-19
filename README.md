@@ -7,8 +7,14 @@ Historico das solucoes implementadas e os problemas utilizados.
 O que eh um Dojo?
 -----------------
 
-bla bla bla: WikiPedia
+Um Coding Dojo é um encontro onde um grupo de programadores de vários níveis de conhecimento se reúne para treinar, em um ambiente inclusivo e colaborativo boas técnicas e metodologias de desenvolvimento de software através da solução de um pequeno desafio de programação. (Dojo Puzzles)
 
+Seguem alguns links com outras definições e mais informações sobre um Coding Dojo
+
+* http://dojopuzzles.com/sobre/
+* http://flaviosilveira.com/2011/coding-dojo-o-que-e-e-como-participar/
+* http://www.devmedia.com.br/o-que-e-o-coding-dojo/30517
+* http://pt.wikipedia.org/wiki/Coding_Dojo
 
 Como fazemos nossos dojos?
 --------------------------
