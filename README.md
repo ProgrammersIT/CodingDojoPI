@@ -1,27 +1,35 @@
 CodingDojoPI
 ============
 
-Dojo1
------
+Este repositorio armazena o codigo dos coding dojos realizados na Programmers.
+Historico das solucoes implementadas e os problemas utilizados.
 
-Dojo realizado na Programmer's, unidade Matão, no dia 15/10/2014
+O que eh um Dojo?
+-----------------
 
-* Problema escolhido: http://dojopuzzles.com/problemas/exibe/lampadas-no-corredor/
-* Formato: Randori
+bla bla bla: WikiPedia
 
-Dojo 2
------
 
-Dojo realizado na Programmer's, unidade Matão, no dia 13/11/2014
+Como fazemos nossos dojos?
+--------------------------
 
-* Problema escolhido: http://dojopuzzles.com/problemas/exibe/escrevendo-no-celular/
-* Formato: Randori
+Nossos dojos acontecem a cada quinze dias, sempre as quartas feiras.
 
-Dojo 3
-======
+Desenovolvedores trabalham na implementacao da solucao.
+Testers (se presentes) ajudam o desenvolvedores a guiar seu pensamento em rumo
+a completar um requisito proposto pelo problema.
 
-Dojo realizado na Programmer's, unidade Matao, no dia 21/01/2015
+Rounds de desenvolvimento fechados em 5 minutos
 
-* Problema escolhido: http://dojopuzzles.com/problemas/exibe/quiz-animal/
-* Formato: Randori
+Respeitamos os horarios definidos para as etapas do Dojo
+
+Check list de atividades do dojo
+--------------------------------
+
+1. Providenciar comes e bebes
+2. Definir horarios de etapas do Dojo
+2. Escolher problema
+3. Discutir em grupo solucao para o problema
+4. Partir para rounds de implementacao
+5. Review e wrap up
 
