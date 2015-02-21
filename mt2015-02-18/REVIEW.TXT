@@ -1,0 +1,19 @@
+Positivo
+
+- Lemos o review da edição anterior antes das atividades;
+- Melhorou a prática do TDD;
+- Timebox definido;
+- Deixar o 'rango' para o final da atividade;
+- Briefing + pausas para retomada do raciocínio;
+
+Negativo
+
+- Faltou a coca-cola;
+- Seguir regra que apenas piloto e co-piloto possam falar;
+- Lembrete do invite do outlook está muito 'em cima';
+
+TODO
+
+- Anotar dúvidas e detalhes de implementação que nem todos conhecem para posterior explicação 
+
+
