@@ -1,0 +1,22 @@
+Review Coding Dojo 17/03/2015
+
+Positivo
+
+ - Abertura para QAs
+ - Participação dos alunos da ETEC 
+ - A Josi gostou...
+ - ...o pessoal da ETEC também
+ - Problema bem escolhido
+ - Teve a coca que faltou na sessão anterior
+
+Negativo
+ - MS não implementou Test Cases
+ - Conversa paralela
+ - Piloto e co-piloto devem 'pensar em voz alta'
+ - Falar os atalhos da ferramenta em voz alta
+ - Pressão
+
+TO-DO
+ - Usar NUnit
+ - Usar as duas lousas
+ - Diminuir a conversa paralela
