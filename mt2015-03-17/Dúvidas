@@ -1,0 +1,17 @@
+Dúvidas que surgiram durante o dojo:
+- Como faz um teste unitário? Por onde começar? Quais são as decorations?
+- O que cada método faz? Como nomeá-los corretamente?
+- O que é var? Como funcionam no C#?
+- Como nomerar uma variável?
+- Devo usar o Array ou List?
+- O que é escopo?
+- Devo ou não usar "_" nas variáveis globais da classe?
+- O que o .ForEach() faz?
+- O que são expressões lambdas? Para que servem?
+- É possível implementar TestCases?
+
+Dificuldades:
+- Implementar sem pensar lá na frente
+- Nomear métodos de forma clara e objetiva
+- Aplicar o "pensamento em voz alta"
+- Falar em voz alta os atalhos que estão sendo utilizados
