@@ -1,0 +1,22 @@
+Review do coding-dojo realizado no dia 28/04/2015
+
+O que foi bom?
+
+ - Pizza
+ - Menos conversa paralela
+ - Problema pode ser finalizado e extendido
+ - Usamos NUnit
+ - Nakamura escreveu um teste
+ - Estamos evoluindo
+ - Maior integração dos participantes
+
+O que não foi legal?
+
+ - Pizza 4 queijos
+ - Só pedimos coca, não pedimos guaraná
+ - Não tivemos participação de QAs desta vez
+
+TO-DO
+
+ - Assistir vídeos do Uncle Bob (SOLID)
+ - Continuar o mesmo exercício, aplicando os princípios do SOLID
