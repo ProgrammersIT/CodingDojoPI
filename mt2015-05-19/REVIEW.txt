@@ -1,0 +1,20 @@
+BOM
+
+- Sem pizza 4 queijos
+- Gerador funcionou
+- Tivemos QA (programando)
+- Energia voltou no mesmo dia
+- Concluimos e começamos a expandir o projeto novamente
+- Resolvemos algumas dúvidas
+
+Ruim
+
+- Faltou energia
+- Pouca gente
+- Faltou planejamento de arquitetura
+- Seguir o TDD
+- Piloto e Copiloto não pensaram em voz alta
+
+To Do
+
+- Ver vídeos do Uncle Bob (SOLID)
