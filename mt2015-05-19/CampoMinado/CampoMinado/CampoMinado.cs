@@ -6,9 +6,10 @@ using System.Threading.Tasks;
 
 namespace CampoMinado
 {
-    public class CampoMinado
+    public class CampoMinado : ICampoMinado
     {
-        public Celula[,] Campo { get; set; }
+        public Celula[,] Campo { get; private set; }
+
         public const int VALOR_BOMBA = 9;
         int _linhas;
         int _colunas;
@@ -18,13 +19,30 @@ namespace CampoMinado
             _linhas = linhas;
             _colunas = colunas;
 
-            Campo = new Celula[_linhas, _colunas];
-
             InicializarCelulas();
         }
 
-        void InicializarCelulas()
+        public void AdicionarBomba(Posicao posicao)
         {
+            try
+            {
+                Campo[posicao.X, posicao.Y].Valor = VALOR_BOMBA;
+
+                var obterAdjacentes = ObterPosicoesAdjacentes(posicao.X, posicao.Y);
+
+                obterAdjacentes.ForEach(p => Campo[p.X, p.Y].Valor++);
+
+            }
+            catch (IndexOutOfRangeException)
+            {
+                throw new ArgumentException();
+            }
+        }
+
+        private void InicializarCelulas()
+        {
+            Campo = new Celula[_linhas, _colunas];
+
             for (var linha = 0; linha < _linhas; linha++)
                 for (var coluna = 0; coluna < _colunas; coluna++)
                     Campo[linha, coluna] = new Celula();
@@ -34,7 +52,7 @@ namespace CampoMinado
         {
             var adjacentes = new List<Posicao>();
 
-            for (int adjX = x-1; adjX <= x+1; adjX++)
+            for (int adjX = x - 1; adjX <= x + 1; adjX++)
             {
                 for (int adjY = y - 1; adjY <= y + 1; adjY++)
                 {
@@ -50,23 +68,6 @@ namespace CampoMinado
             }
 
             return adjacentes;
-        }
-
-        public void PosicionarBomba(Posicao posicao)
-        {
-            try
-            {
-                Campo[posicao.X, posicao.Y].Valor = VALOR_BOMBA;
-
-                var obterAdjacentes = ObterPosicoesAdjacentes(posicao.X, posicao.Y);
-
-                obterAdjacentes.ForEach(p => Campo[p.X, p.Y].Valor++);
-
-            }
-            catch (IndexOutOfRangeException)
-            {
-                throw new ArgumentException();
-            }
         }
     }
 }

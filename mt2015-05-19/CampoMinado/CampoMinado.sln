@@ -7,6 +7,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CampoMinado", "CampoMinado\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CampoMinado.Testes", "CampoMinado.Testes\CampoMinado.Testes.csproj", "{647DFE34-4FDC-4EFC-A5B8-26DE6B124989}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{2577E0E5-6F7F-4127-A738-5DF2FB3554A2}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CampoMinado.UI", "CampoMinado.UI\CampoMinado.UI.csproj", "{BA74997B-14A9-4AAC-8F97-8AAB92C4FEF5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +30,10 @@ Global
 		{647DFE34-4FDC-4EFC-A5B8-26DE6B124989}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{647DFE34-4FDC-4EFC-A5B8-26DE6B124989}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{647DFE34-4FDC-4EFC-A5B8-26DE6B124989}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA74997B-14A9-4AAC-8F97-8AAB92C4FEF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA74997B-14A9-4AAC-8F97-8AAB92C4FEF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA74997B-14A9-4AAC-8F97-8AAB92C4FEF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA74997B-14A9-4AAC-8F97-8AAB92C4FEF5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

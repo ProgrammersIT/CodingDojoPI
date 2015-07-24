@@ -19,11 +19,18 @@ namespace CampoMinado.Testes
             _campoMinado = new CampoMinado(LINHAS, COLUNAS);
         }
 
+        [Test]
+        public void Campo_eh_inicializado_corretamente()
+        {
+            foreach (var celula in _campoMinado.Campo)
+                Assert.That(celula.Valor, Is.EqualTo(0));
+        }
+
         [TestCase(0, 0)]
         [TestCase(0, 1)]
         public void As_bombas_sao_posicionadas_de_acordo_com_a_posicao_informada(int x, int y)
         {
-            _campoMinado.PosicionarBomba(new Posicao(x, y));
+            _campoMinado.AdicionarBomba(new Posicao(x, y));
 
             Assert.That(_campoMinado.Campo[x, y].Valor, Is.EqualTo(CampoMinado.VALOR_BOMBA));
         }
@@ -32,7 +39,7 @@ namespace CampoMinado.Testes
         public void Outros_campos_nao_contem_bombas()
         {
             const int ESPERADO_SEM_BOMBA = TOTAL - 1;
-            _campoMinado.PosicionarBomba(new Posicao(0, 0));
+            _campoMinado.AdicionarBomba(new Posicao(0, 0));
 
             int bombas = 0;
 
@@ -49,14 +56,14 @@ namespace CampoMinado.Testes
         [ExpectedException(typeof(ArgumentException))]
         public void Posicao_Invalida_Lanca_Excecao()
         {
-            _campoMinado.PosicionarBomba(new Posicao (10, 10));
+            _campoMinado.AdicionarBomba(new Posicao (10, 10));
         }
 
         [Test]
         public void Calcular_quantidade_de_bombas_adjacentes()
         {
-            PosicionadorDeBombas posicionador = new PosicionadorDeBombas();
-            posicionador.PosicionaBombasNoCampo(_campoMinado);
+            _campoMinado.AdicionarBomba(new Posicao(0, 0));
+            _campoMinado.AdicionarBomba(new Posicao(2, 1));
 
             Assert.That(_campoMinado.Campo[1, 0].Valor, Is.EqualTo(2));
             Assert.That(_campoMinado.Campo[1, 1].Valor, Is.EqualTo(2));
