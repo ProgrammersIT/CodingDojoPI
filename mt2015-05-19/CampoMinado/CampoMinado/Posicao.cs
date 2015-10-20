@@ -17,17 +17,4 @@ namespace CampoMinado
             Y = y;
         }
     }
-
-    public class PosicionadorDeBombas
-    {
-        Posicao[] _posicoes = { new Posicao(0, 0), new Posicao(2, 1) };
-
-        public void PosicionaBombasNoCampo(CampoMinado campoMinado)
-        {
-            foreach (var posicao in _posicoes)
-	        {
-                campoMinado.PosicionarBomba(posicao);
-	        }
-        }
-    }
 }
