@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NuvemVulcao", "NuvemVulcao\NuvemVulcao.csproj", "{7EF38817-EEC0-4941-95F2-F3166A1B9480}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NuvemVulcao.Tests", "NuvemVulcao.Tests\NuvemVulcao.Tests.csproj", "{A343DED3-69C4-44D6-AAAC-9AF3C5EBB0DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7EF38817-EEC0-4941-95F2-F3166A1B9480}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EF38817-EEC0-4941-95F2-F3166A1B9480}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EF38817-EEC0-4941-95F2-F3166A1B9480}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EF38817-EEC0-4941-95F2-F3166A1B9480}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A343DED3-69C4-44D6-AAAC-9AF3C5EBB0DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A343DED3-69C4-44D6-AAAC-9AF3C5EBB0DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A343DED3-69C4-44D6-AAAC-9AF3C5EBB0DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A343DED3-69C4-44D6-AAAC-9AF3C5EBB0DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

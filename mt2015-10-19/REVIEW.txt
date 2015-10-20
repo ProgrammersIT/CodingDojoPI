@@ -1,0 +1,13 @@
+BOM
+
+* Usamos o Tuple
+* TDD
+* Matriz
+* Todos ajudaram
+* Sem conversa paralela
+
+RUIM
+
+* Não Terminamos
+* Não teve pizza :(
+* Subestimamos o problema
